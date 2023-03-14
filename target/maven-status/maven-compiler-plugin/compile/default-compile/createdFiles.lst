@@ -1,0 +1,8 @@
+org\example\pageObject\Register.class
+org\example\pageObject\Profile.class
+org\example\User.class
+org\example\pageObject\Login.class
+org\example\Client.class
+org\example\pageObject\Main.class
+org\example\UserGenerator.class
+org\example\UserClient.class
