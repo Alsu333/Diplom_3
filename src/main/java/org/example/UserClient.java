@@ -1,10 +1,7 @@
 package org.example;
 
-
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
-
-import static io.restassured.RestAssured.given;
 
 public class UserClient extends Client {
     public static final String URL = "https://stellarburgers.nomoreparties.site/api";
@@ -13,8 +10,7 @@ public class UserClient extends Client {
 
     @Step("Получить accessToken пользователя")
     public String getAccessTokenOnLogin(User user) {
-        return given()
-                .spec(spec())
+        return spec()
                 .body(user)
                 .when()
                 .post(URL + ApiLogin)
@@ -25,8 +21,7 @@ public class UserClient extends Client {
 
     @Step("Удаление пользовательских данных из системы")
     public ValidatableResponse delete(String accessToken) {
-        return given()
-                .spec(spec())
+        return spec()
                 .auth().oauth2(accessToken.replace("Bearer ", ""))
                 .when()
                 .delete(URL + ApiDelete)
