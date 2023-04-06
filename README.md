@@ -1,4 +1,4 @@
-��#� �D�i�p�l�o�m�_�3�
+DIPLOM_3
 Протестировала веб-приложение Stellar Burgers.
 https://stellarburgers.nomoreparties.site/
 
