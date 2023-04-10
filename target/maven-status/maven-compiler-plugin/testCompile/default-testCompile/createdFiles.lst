@@ -1,0 +1,8 @@
+ChromeDriverTest\ConstructorTest.class
+YandexDriverTest\YandexProfileTest.class
+YandexDriverTest\YandexConstructorTest.class
+YandexDriverTest\YandexRegistrationtTest.class
+ChromeDriverTest\AccountProfileTest.class
+ChromeDriverTest\RegistrationTest.class
+ChromeDriverTest\LoginTest.class
+YandexDriverTest\YandexLoginTest.class
